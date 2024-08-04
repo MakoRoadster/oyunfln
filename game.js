@@ -35,10 +35,10 @@ let gameOver = false;
 let elapsedTime = 0;
 
 const carImage = new Image();
-carImage.src = 'file.png'; // Oyuncu arabası görseli
+carImage.src = 'img/file.png';
 
 const enemyCarImage = new Image();
-enemyCarImage.src = 'file1.png'; // Düşman arabası görseli
+enemyCarImage.src = 'img/file1.png'; 
 
 function createEnemyCar() {
   const enemyX = roadX + Math.floor(Math.random() * (roadWidth - enemyCarWidth));
